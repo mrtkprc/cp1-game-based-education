@@ -1,0 +1,684 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a266120a-bea9-4d08-a9af-09d6bd04ba9c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/1_lira.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/50.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/783926-200.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/bg_yellow.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/bg_yellow_resized.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/dogru.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/enemy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/enemy_2_orj.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/enemy_2_x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/line_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/mario.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/boat_large_E.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/boat_large_N.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/boat_large_NE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/boat_large_NW.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/boat_large_S.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/boat_large_SE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/boat_large_SW.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/boat_large_W.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/boat_small_E.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/boat_small_N.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/boat_small_NE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/boat_small_NW.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/boat_small_S.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/boat_small_SE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/boat_small_SW.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/boat_small_W.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/bottleLarge_NE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/bottleLarge_NW.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/bottleLarge_SE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/bottleLarge_SW.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/bottle_NE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/bottle_NW.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/bottle_SE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/bottle_SW.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/cannonBall_NE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/cannonBall_NW.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/cannonBall_SE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/cannonBall_SW.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/cannonLarge_NE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/cannonLarge_NW.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/cannonLarge_SE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/cannonLarge_SW.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/cannonMobile_E.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/cannonMobile_N.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/cannonMobile_NE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/cannonMobile_NW.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/cannonMobile_S.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/cannonMobile_SE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/cannonMobile_SW.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/cannonMobile_W.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/cannon_NE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/cannon_NW.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/cannon_SE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/cannon_SW.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/chest_NE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/chest_NW.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/chest_SE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/chest_SW.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/formationLarge_rock_NE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/formationLarge_rock_NW.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/formationLarge_rock_SE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/formationLarge_rock_SW.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/formationLarge_stone_NE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/formationLarge_stone_NW.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/formationLarge_stone_SE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/formationLarge_stone_SW.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/formation_rock_NE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/formation_rock_NW.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/formation_rock_SE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/formation_rock_SW.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/formation_stone_NE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/formation_stone_NW.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/formation_stone_SE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/formation_stone_SW.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/hole_NE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/hole_NW.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/hole_SE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/hole_SW.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/paddle_NE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/paddle_NW.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/paddle_SE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/paddle_SW.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/palm_detailed_long_NE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/palm_detailed_long_NW.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/palm_detailed_long_SE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/palm_detailed_long_SW.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/palm_detailed_short_NE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/palm_detailed_short_NW.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/palm_detailed_short_SE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/palm_detailed_short_SW.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/palm_long_NE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/palm_long_NW.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/palm_long_SE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/palm_long_SW.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/palm_short_NE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/palm_short_NW.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/palm_short_SE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/palm_short_SW.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/pirate_captain_E.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/pirate_captain_N.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/pirate_captain_NE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/pirate_captain_NW.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/pirate_captain_S.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/pirate_captain_SE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/pirate_captain_SW.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/pirate_captain_W.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/pirate_crew_E.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/pirate_crew_N.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/pirate_crew_NE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/pirate_crew_NW.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/pirate_crew_S.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/pirate_crew_SE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/pirate_crew_SW.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/pirate_crew_W.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/pirate_officer_E.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/pirate_officer_N.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/pirate_officer_NE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/pirate_officer_NW.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/pirate_officer_S.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/pirate_officer_SE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/pirate_officer_SW.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/pirate_officer_W.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/plant_NE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/plant_NW.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/plant_SE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/plant_SW.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/ship_dark_E.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/ship_dark_N.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/ship_dark_NE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/ship_dark_NW.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/ship_dark_S.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/ship_dark_SE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/ship_dark_SW.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/ship_dark_W.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/ship_light_E.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/ship_light_N.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/ship_light_NE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/ship_light_NW.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/ship_light_S.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/ship_light_SE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/ship_light_SW.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/ship_light_W.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/ship_wreck_E.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/ship_wreck_N.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/ship_wreck_NE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/ship_wreck_NW.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/ship_wreck_S.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/ship_wreck_SE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/ship_wreck_SW.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/ship_wreck_W.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/shovel_NE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/shovel_NW.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/shovel_SE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/shovel_SW.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/sword_NE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/sword_NW.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/sword_SE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/sword_SW.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/sword_scimitar_NE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/sword_scimitar_NW.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/sword_scimitar_SE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/sword_scimitar_SW.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/tower_NE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/tower_NW.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/tower_SE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Isometric/tower_SW.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/FBX format/Materials/_defaultMat.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/FBX format/Materials/iron.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/FBX format/Materials/leaves.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/FBX format/Materials/sand.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/FBX format/Materials/stone.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/FBX format/Materials/textile.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/FBX format/Materials/textileBlue.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/FBX format/Materials/textileRed.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/FBX format/Materials/window.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/FBX format/Materials/wood.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/FBX format/Materials/woodDark.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/FBX format/boat_large.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/FBX format/boat_small.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/FBX format/bottle.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/FBX format/bottleLarge.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/FBX format/cannon.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/FBX format/cannonBall.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/FBX format/cannonLarge.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/FBX format/cannonMobile.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/FBX format/chest.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/FBX format/formationLarge_rock.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/FBX format/formationLarge_stone.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/FBX format/formation_rock.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/FBX format/formation_stone.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/FBX format/hole.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/FBX format/paddle.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/FBX format/palm_detailed_long.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/FBX format/palm_detailed_short.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/FBX format/palm_long.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/FBX format/palm_short.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/FBX format/pirate_captain.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/FBX format/pirate_crew.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/FBX format/pirate_officer.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/FBX format/plant.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/FBX format/ship_dark.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/FBX format/ship_light.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/FBX format/ship_wreck.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/FBX format/shovel.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/FBX format/sword.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/FBX format/sword_scimitar.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/FBX format/tower.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/OBJ format/Materials/_defaultMat.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/OBJ format/Materials/iron.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/OBJ format/Materials/leaves.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/OBJ format/Materials/sand.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/OBJ format/Materials/stone.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/OBJ format/Materials/textile.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/OBJ format/Materials/textileBlue.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/OBJ format/Materials/textileRed.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/OBJ format/Materials/window.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/OBJ format/Materials/wood.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/OBJ format/Materials/woodDark.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/OBJ format/boat_large.mtl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/OBJ format/boat_large.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/OBJ format/boat_small.mtl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/OBJ format/boat_small.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/OBJ format/bottle.mtl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/OBJ format/bottle.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/OBJ format/bottleLarge.mtl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/OBJ format/bottleLarge.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/OBJ format/cannon.mtl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/OBJ format/cannon.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/OBJ format/cannonBall.mtl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/OBJ format/cannonBall.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/OBJ format/cannonLarge.mtl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/OBJ format/cannonLarge.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/OBJ format/cannonMobile.mtl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/OBJ format/cannonMobile.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/OBJ format/chest.mtl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/OBJ format/chest.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/OBJ format/formationLarge_rock.mtl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/OBJ format/formationLarge_rock.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/OBJ format/formationLarge_stone.mtl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/OBJ format/formationLarge_stone.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/OBJ format/formation_rock.mtl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/OBJ format/formation_rock.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/OBJ format/formation_stone.mtl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/OBJ format/formation_stone.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/OBJ format/hole.mtl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/OBJ format/hole.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/OBJ format/paddle.mtl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/OBJ format/paddle.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/OBJ format/palm_detailed_long.mtl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/OBJ format/palm_detailed_long.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/OBJ format/palm_detailed_short.mtl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/OBJ format/palm_detailed_short.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/OBJ format/palm_long.mtl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/OBJ format/palm_long.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/OBJ format/palm_short.mtl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/OBJ format/palm_short.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/OBJ format/pirate_captain.mtl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/OBJ format/pirate_captain.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/OBJ format/pirate_crew.mtl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/OBJ format/pirate_crew.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/OBJ format/pirate_officer.mtl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/OBJ format/pirate_officer.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/OBJ format/plant.mtl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/OBJ format/plant.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/OBJ format/ship_dark.mtl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/OBJ format/ship_dark.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/OBJ format/ship_light.mtl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/OBJ format/ship_light.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/OBJ format/ship_wreck.mtl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/OBJ format/ship_wreck.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/OBJ format/shovel.mtl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/OBJ format/shovel.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/OBJ format/sword.mtl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/OBJ format/sword.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/OBJ format/sword_scimitar.mtl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/OBJ format/sword_scimitar.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/OBJ format/tower.mtl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/OBJ format/tower.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/glTF format/boat_large.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/glTF format/boat_large.gltf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/glTF format/boat_small.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/glTF format/boat_small.gltf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/glTF format/bottle.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/glTF format/bottle.gltf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/glTF format/bottleLarge.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/glTF format/bottleLarge.gltf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/glTF format/cannon.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/glTF format/cannon.gltf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/glTF format/cannonBall.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/glTF format/cannonBall.gltf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/glTF format/cannonLarge.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/glTF format/cannonLarge.gltf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/glTF format/cannonMobile.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/glTF format/cannonMobile.gltf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/glTF format/chest.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/glTF format/chest.gltf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/glTF format/formationLarge_rock.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/glTF format/formationLarge_rock.gltf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/glTF format/formationLarge_stone.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/glTF format/formationLarge_stone.gltf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/glTF format/formation_rock.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/glTF format/formation_rock.gltf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/glTF format/formation_stone.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/glTF format/formation_stone.gltf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/glTF format/hole.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/glTF format/hole.gltf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/glTF format/paddle.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/glTF format/paddle.gltf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/glTF format/palm_detailed_long.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/glTF format/palm_detailed_long.gltf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/glTF format/palm_detailed_short.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/glTF format/palm_detailed_short.gltf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/glTF format/palm_long.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/glTF format/palm_long.gltf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/glTF format/palm_short.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/glTF format/palm_short.gltf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/glTF format/pirate_captain.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/glTF format/pirate_captain.gltf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/glTF format/pirate_crew.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/glTF format/pirate_crew.gltf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/glTF format/pirate_officer.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/glTF format/pirate_officer.gltf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/glTF format/plant.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/glTF format/plant.gltf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/glTF format/ship_dark.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/glTF format/ship_dark.gltf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/glTF format/ship_light.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/glTF format/ship_light.gltf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/glTF format/ship_wreck.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/glTF format/ship_wreck.gltf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/glTF format/shovel.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/glTF format/shovel.gltf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/glTF format/sword.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/glTF format/sword.gltf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/glTF format/sword_scimitar.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/glTF format/sword_scimitar.gltf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/glTF format/tower.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Models/glTF format/tower.gltf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Topdown/boat_large.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Topdown/boat_small.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Topdown/bottle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Topdown/bottleLarge.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Topdown/cannon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Topdown/cannonBall.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Topdown/cannonLarge.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Topdown/cannonMobile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Topdown/chest.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Topdown/formationLarge_rock.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Topdown/formationLarge_stone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Topdown/formation_rock.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Topdown/formation_stone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Topdown/hole.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Topdown/paddle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Topdown/palm_detailed_long.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Topdown/palm_detailed_short.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Topdown/palm_long.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Topdown/palm_short.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Topdown/pirate_captain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Topdown/pirate_crew.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Topdown/pirate_officer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Topdown/plant.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Topdown/ship_dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Topdown/ship_light.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Topdown/ship_wreck.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Topdown/shovel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Topdown/sword.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Topdown/sword_scimitar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Topdown/tower.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/pirates/Unity package/Pirate Kit.unitypackage" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/ray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/rsz_line_1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/rsz_line_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/rsz_line_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/rsz_line_old.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/rsz_line_x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/assets/images/rsz_ray_old.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mk/bg1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.pug" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="2106690865">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="css" value="227" />
+          <entry key="js" value="24" />
+          <entry key="json" value="13" />
+          <entry key="pug" value="395" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="227" />
+          <entry key="JSON" value="13" />
+          <entry key="Jade" value="395" />
+          <entry key="JavaScript" value="24" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="css" value="1" />
+          <entry key="js" value="3" />
+          <entry key="pug" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="1" />
+          <entry key="Jade" value="3" />
+          <entry key="JavaScript" value="3" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/index.pug">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="616">
+              <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/detailed_index.pug">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-132" />
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/public/stylesheets/style.css" />
+        <option value="$PROJECT_DIR$/views/index.pug" />
+        <option value="$PROJECT_DIR$/routes/index.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-12" />
+    <option name="y" value="-12" />
+    <option name="width" value="1944" />
+    <option name="height" value="1044" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="CP1-Project1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CP1-Project1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CP1-Project1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CP1-Project1" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CP1-Project1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CP1-Project1" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="stylesheets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CP1-Project1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CP1-Project1" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CP1-Project1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CP1-Project1" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Mert\Desktop\CP1-Project1\views" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a266120a-bea9-4d08-a9af-09d6bd04ba9c" name="Default Changelist" comment="" />
+      <created>1539423073040</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1539423073040</updated>
+      <workItem from="1539423074411" duration="3099000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3099000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="npm" side_tool="true" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24960254" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.3291815" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3291815" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/views/layout.pug">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="22" column="31" lean-forward="true" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/detailed_index.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-132" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

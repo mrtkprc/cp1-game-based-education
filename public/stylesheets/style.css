@@ -6,3 +6,43 @@ body {
 a {
   color: #00B7FF;
 }
+.head_title
+{
+  color:darkorange;
+  font-size: 24px;
+}
+.head_title_content
+{
+  color: blueviolet;
+  font-size: 18px;
+  padding-left: 30px;
+}
+.head_title_content_detail_yes
+{
+  color: green;
+  font-size: 14px;
+  font-weight: bold;
+  padding-left: 50px;
+}
+.head_title_content_detail_no
+{
+  color: darkred;
+  font-size: 14px;
+  font-weight: bold;
+  padding-left: 50px;
+}
+
+p a{
+  color:red;
+  padding-left: 2px;
+  font-size: 12px;
+  text-decoration: none;
+  font-weight: bold;
+}
+p a:hover{
+  color:darkblue;
+  padding-left: 4px;
+  font-size: 12px;
+  text-decoration:underline;
+  font-weight: bold;
+}

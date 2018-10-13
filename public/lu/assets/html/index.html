@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Use JavaScript to Change Text</h2>
+<p>This example writes "Hello JavaScript!" into an HTML element with id="demo":</p>
+
+<p id="demo"></p>
+
+<script>
+document.getElementById("demo").innerHTML = "Hello JavaScript!";
+</script> 
+var game = new Phaser.Game(1300,650,Phaser.AUTO);
+var bulletExist = false;
+var background;
+var backgorund_velocity = 1;
+var player;
+var cursors;
+var bombvoice;
+var fireButton
+var mermivoice;
+var sayac = 0;
+var birinci  = false;
+var ikinci  = false;
+var ucuncu  = false;
+var dorduncu  = false;
+var kontrol = true;
+var randomNumber;
+var puan = 0;
+var operatorText = "+";
+var operand1Text =  5;
+var operand2Text = 6;
+var operator;
+var operand1;
+var operand2;
+var randomHelicopter;
+var bolmeText;
+var carpma;
+var bolme;
+var toplama;
+var cikarma;
+
+var b_carpma = false;
+var b_bolme = false;
+var b_toplama = false;
+var b_cikarma = false;
+
+var boolKontrol = false;
+var dusman = [];
+var fire = [];
+var first = true;
+var mermiSayisi = 200;
+var bmpText;
+var soruVar = true;
+var operatorSecildi = false;
+var fireSayisi = 0;
+var dusmanSayisi = 0;
+var helicopterSecildi = false;
+var GameState = {
+    preload: function () {
+        game.load.bitmapFont('desyrel', 'assets/fonts/desyrel.png', 'assets/fonts/desyrel.xml');
+        game.load.bitmapFont('puan', 'assets/fonts/desyrel.png', 'assets/fonts/desyrel.xml');
+        game.load.bitmapFont('operator', 'assets/fonts/desyrel.png', 'assets/fonts/desyrel.xml');
+        game.load.bitmapFont('operand1', 'assets/fonts/desyrel.png', 'assets/fonts/desyrel.xml');
+        game.load.bitmapFont('operand2', 'assets/fonts/desyrel.png', 'assets/fonts/desyrel.xml');
+        game.load.bitmapFont('toplama', 'assets/fonts/desyrel.png', 'assets/fonts/desyrel.xml');
+        game.load.bitmapFont('cikarma', 'assets/fonts/desyrel.png', 'assets/fonts/desyrel.xml');
+        game.load.bitmapFont('carpma', 'assets/fonts/desyrel.png', 'assets/fonts/desyrel.xml');
+        game.load.bitmapFont('bolme', 'assets/fonts/desyrel.png', 'assets/fonts/desyrel.xml');
+    
+    
+
+        game.load.audio('patlama', 'assets/audio/patlama.mp3');
+        game.load.audio('mermi', 'assets/audio/mermi.mp3');
+
+        game.load.image('firstBackground',"assets/images/mainBackground.jpg");
+        
+        game.load.image('fire',"assets/images/fire.png");
+        game.load.image('helicopter1',"assets/images/helicopter1.png");
+        game.load.image('helicopter2',"assets/images/helicopter2.png");
+        game.load.image('helicopter3',"assets/images/helicopter3.png");
+        game.load.image('helicopter4',"assets/images/helicopter4.png");
+        game.load.image('dusman',"assets/images/dusman.png");
+        game.load.image('dusman2',"assets/images/dusman2.png");
+        game.load.image('dusman3',"assets/images/dusman3.png");
+        game.load.image('dusman4',"assets/images/dusman4.png");
+
+    },
+    create: function () {
+        
+
+        background = game.add.tileSprite(0,0,1300,650,'firstBackground');
+        helicopter1 = game.add.sprite(100,100,'helicopter1');
+        helicopter1.scale.setTo(0.5);
+        helicopter2 = game.add.sprite(100,300,'helicopter2');
+        helicopter2.scale.setTo(0.5);
+        helicopter4 = game.add.sprite(700,100,'helicopter4');
+        helicopter4.scale.setTo(0.15);
+        helicopter3 = game.add.sprite(700,350,'helicopter3');
+        helicopter3.scale.setTo(0.1);
+        bmpText = game.add.bitmapText(100, 500, 'desyrel', 'Phaser & Pixi\nrocking!', 64);
+        bmpText2 = game.add.bitmapText(650, 500, 'puan', 'Phaser & Pixi\nrocking!', 64);
+
+        bolme = game.add.bitmapText(1100, 160, 'bolme', '', 100);
+        bolme.text = "/";
+        bolme.visible =true;
+        carpma = game.add.bitmapText(1100, 10, 'carpma', '', 100);
+        carpma.text = "X";
+        carpma.visible = true;
+        cikarma = game.add.bitmapText(1100, 310, 'cikarma', '', 150);
+        cikarma.text = "-";
+        cikarma.visible = true;
+        toplama = game.add.bitmapText(1100, 460, 'toplama', '', 150);
+        toplama.text = "+";
+        toplama.visible = true;
+                    
+
+        operator = game.add.bitmapText(1200, 300, 'operator', '', 64);
+        operand1 = game.add.bitmapText(1200, 100, 'operand1', '', 64);
+        operand2 = game.add.bitmapText(1200, 500, 'operand2', '', 64);
+        fireButton = game.input.keyboard.addKey(Phaser.Keyboard.SPACEBAR);
+        cursors = game.input.keyboard.createCursorKeys();
+        
+        myInput2 = this.createInput(55, 400);
+
+        this.myInput2.canvasInput.value('Woww, lo necesitabamos!');
+
+        if(helicopterSecildi)
+        {
+            
+        
+            
+            
+                    
+        }
+    },
+    update:function () {
+        
+            // console.log("b_bolme:", b_bolme);
+            // bolme.visible = b_bolme;
+            // carpma.visible =b_carpma;
+            // cikarma.visible =b_cikarma;
+            // toplama.visible =b_toplama;
+        
+        
+
+        bmpText.text = 'Kalan Mermi \n' + Math.round(mermiSayisi);
+        bmpText2.text = 'Toplam Puan \n' + Math.round(puan);
+        
+        // bolme.text =   "/";
+        // carpma.text = "X";
+        // toplama.text = "+";
+        // cikarma.text = "-";
+        if(helicopterSecildi)
+        {
+            
+            if(bulletExist)
+            {
+             
+                var j;
+                for( j = 0; j < fireSayisi; j++)
+                {
+                    
+                    //fire[j].x =150;
+                    fire[j].x += 20;
+                    fire[j].y += 5;
+                     //fire[j].y +=  Math.sqrt(Math.sqrt(i))* 1.2;
+                    
+                }
+            }
+            if(!soruVar)
+            {
+                
+            bolme.visible = false ;
+            carpma.visible = false;
+            cikarma.visible = false;
+            toplama.visible = false;
+            game.physics.enable(player,Phaser.Physics.ARCADE);
+            
+            
+            if(ucuncu  || dorduncu)
+            {
+                player.scale.setTo(0.1);
+                
+            }
+            else if(ikinci || birinci)
+            {
+                
+                player.scale.setTo(0.5);
+            }
+            
+        var x ,y;
+        for(x = 0 ; x < dusmanSayisi; x++)
+        {
+            for(y = 0; y < fireSayisi; y++)
+            {
+                if(dusman[x].x - fire[y].x <=50 && dusman[x].x - fire[y].x >= -50 && dusman[x].y - fire[y].y <=50 && dusman[x].y - fire[y].y >= -50)
+                {
+                    bombvoice = game.add.audio('patlama');
+                    bombvoice.play();
+    
+                    dusman[x].kill();
+                     dusman[x].x = -1;
+                     dusman[x].y = -1;
+                    //dusmanSayisi--;
+                    fire[y].destroy()
+                    puan += 50;
+                    //fireSayisi--;
+                }
+            }
+
+
+            
+            
+        }
+
+
+        if(kontrol)
+        {
+            var i;
+            for(i = 0; i < dusmanSayisi; i++)
+            {
+                dusman[i].position.x -= 5;
+            }
+            
+        }
+       
+        background.tilePosition.x +=backgorund_velocity;
+        sayac++;
+            if(sayac == 50)
+            {
+                randomNumber = Math.random() * 300 + 30;
+                randomHelicopter = Math.floor(Math.random() * 4);
+                
+                var helicopterType;
+                switch (randomHelicopter){
+                    case 0: helicopterType = "dusman";
+                    break;
+                    case 1: helicopterType = "dusman2";
+                    break;
+                    case 2: helicopterType = "dusman3";
+                    break;
+                    case 3: helicopterType = "dusman4";
+                    break;
+                }
+                
+                dusman.push (game.add.sprite(game.world.centerX,game.world.centerY,helicopterType));
+                dusmanSayisi += 1;
+                dusman[dusmanSayisi-1].position.x= 1100;
+                dusman[dusmanSayisi-1].position.y = randomNumber;
+                dusman[dusmanSayisi-1].scale.setTo(0.2);
+                
+                
+                sayac = 0;
+                kontrol = true;
+            }
+        if(cursors.left.isDown)
+        {
+            
+            
+            
+            
+            if(player.body.position.x === 0)
+            {
+                
+            }
+            else
+            {
+                player.body.position.x -= 10;
+            }
+            
+
+
+            
+        }
+        if(cursors.right.isDown)
+        {
+            
+            if(player.body.position.x === 1050)
+            {
+                
+            }
+            else
+            {
+                player.body.position.x += 10;
+            }
+        }
+        if (cursors.up.isDown)
+        {
+            
+             player.y -=8;
+        }
+        if(cursors.down.isDown)
+        {
+            player.y +=8;
+        }
+        if(fireButton.isDown && mermiSayisi > 0)
+        {
+            fire.push(game.add.sprite(player.position.x + 200,player.position.y +75,'fire'));
+            mermivoice = game.add.audio('mermi');
+            mermivoice.play();
+            mermiSayisi--;
+            fireSayisi += 1;
+            //fire[fireSayisi-1].position.x= 1100;
+            //fire[fireSayisi-1].position.y = randomNumber;
+            fire[fireSayisi-1].scale.setTo(0.05);
+            
+            bulletExist = true;
+            
+        }
+            }
+            else//soru var
+            {
+                
+                if(operatorSecildi)
+                {
+                    operator.text = operatorText;
+                    operand1.text = operand1Text;
+                    operand2.text = operand2Text;
+
+                    this.latif = this.createInput(70, 200);
+                    this.latif.canvasInput.value("cevabınızı giriniz")
+                }
+                else//Operator secilmedi
+                {
+                    
+                    
+                    if(cursors.left.isDown)
+                    {
+                        if(player.x === 0)
+                        {
+                                
+                        }
+                        else
+                        {
+                            player.x -= 8;
+                        }
+                        
+                    }
+                    if(cursors.right.isDown)
+                    {
+                        
+                        if(player.x === 1050)
+                        {
+                            
+                        }
+                        else
+                        {
+                            player.x += 8;
+                        }
+                    }
+                    if (cursors.up.isDown)
+                    {
+                        
+                        player.y -=5;
+                    }
+                    if(cursors.down.isDown)
+                    {
+                        player.y +=5;
+                    }
+
+                    if(fireButton.isDown && mermiSayisi > 0)
+                    {
+                        
+                        bulletExist =true;
+                        fire.push(game.add.sprite(player.position.x + 200,player.position.y +75,'fire'));
+                        mermivoice = game.add.audio('mermi');
+                        mermivoice.play();
+                        mermiSayisi--;
+                        fireSayisi += 1;
+                        //fire[fireSayisi-1].position.x= 1100;
+                        //fire[fireSayisi-1].position.y = randomNumber; 
+                        fire[fireSayisi-1].scale.setTo(0.05);
+                        
+                        
+
+                    }
+
+
+
+                                            
+                    var t;
+                    for( t = 0; t < fireSayisi; t++)
+                    {
+                        
+                        yAxis = fire[t].position.y
+                        xAxis = fire[t].position.x
+                        
+                       if( xAxis >=1100 && yAxis > 650)
+                       {
+                        fire[t].y = 1000;   
+                       }
+
+                       if(xAxis >= 1100 && yAxis <= 160  && yAxis >= 0)
+                       {
+                        
+
+                        console.log("position1" , yAxis)
+                        bolme.visible =toplama.visible = cikarma.visible =  false;
+                        fire[t].y = 1000;
+                        operatorText = "X";
+                        randomSayiUret("carpma")
+                        operatorSecildi = true;
+                           break;
+                           
+                       }
+                       else if(xAxis >= 1100 && xAxis<= 1300 && yAxis > 160 && yAxis <= 310)
+                       {
+                        console.log("position2" , yAxis)
+                        toplama.visible =carpma.visible = cikarma.visible =  false;
+                        fire[t].y = 1000;
+                        operatorText = "/";
+                        randomSayiUret("bolme")
+                        operatorSecildi = true;
+                           break
+
+                       }
+                       else if(xAxis >= 1100 && yAxis > 310 && yAxis <= 460)
+                       {
+                        console.log("position3" , yAxis)
+                            bolme.visible =carpma.visible = toplama.visible =  false;
+                            fire[t].y = 1000;
+                            operatorText = "-";
+                            randomSayiUret("cikarma")
+                            operatorSecildi = true;
+                            break;
+                       }
+                       
+                       else  if(xAxis >= 1100 && yAxis > 460 && yAxis <= 650)
+                       {
+                        console.log("position4" , yAxis)
+                            
+                            bolme.visible =carpma.visible = cikarma.visible =  false;
+                            fire[t].y = 1000;
+                            operatorText = "+";
+                            randomSayiUret("toplama")
+                            operatorSecildi = true;
+                            break;
+                           
+
+                           
+                       }
+                        
+
+
+
+                       
+                    }
+
+
+                }
+                
+            }
+     
+
+        
+        }
+    else //Helikopterin seçilmediği durum
+        {
+            if (game.input.mousePointer.isDown)
+            {
+                if(game.input.x <= 700 && game.input.y <=300)
+                {
+                    player = helicopter1;
+                    //player.name = "helicopter1";
+                    birinci == true;
+                    helicopter2.destroy();
+                    helicopter3.destroy();
+                    helicopter4.destroy();
+                    helicopterSecildi = true;
+                }
+                else if(game.input.x > 700 && game.input.y <=300)
+                {
+                    player = helicopter4;
+                    //player.name = "helicopter4";
+                    dorduncu == true;
+                    helicopter1.destroy();
+                    helicopter3.destroy();
+                    helicopter2.destroy();
+                    helicopterSecildi = true;
+                }
+                else if(game.input.x <= 700 && game.input.y >300)
+                {
+                    player = helicopter2;
+                    //player.name = "helicopter2";
+                    ikinci == true;
+                    helicopter3.destroy();
+                    helicopter1.destroy();
+                    helicopter4.destroy();
+                    helicopterSecildi = true;
+                }
+                else if(game.input.x > 700 && game.input.y > 300)
+                {
+                    player = helicopter3;
+                    //player.name = "helicopter3";
+                    ucuncu = true;
+                    helicopter2.destroy();
+                    helicopter4.destroy();
+                    helicopter1.destroy();
+                    helicopterSecildi = true;
+                }
+            }
+            
+        }   
+
+        }
+}
+
+
+function randomSayiUret(type)
+{
+    switch(type)
+    {
+        case "toplama":
+        {
+            operand2Text =  Math.floor(Math.random()*100);
+            operand1Text =  Math.floor(Math.random()*100);
+            break;
+        }
+        case "cikarma":
+        {
+            operand2Text =  Math.floor(Math.random()*100);
+            operand1Text =  Math.floor(Math.random()*100);
+            if(operand2Text > operand1Text)
+            {
+                console.log("leat")
+                temp = operand2Text ;
+                operand2Text = operand1Text;
+                operand1Text = temp;
+            }
+            break;
+        }
+        case "carpma":
+        {
+            operand2Text =  Math.floor(Math.random()*10);
+            operand1Text =  Math.floor(Math.random()*10);
+            
+            break;
+        }
+        case "bolme":
+        {
+            do {
+                
+                temp1 =  Math.floor(Math.random()*100);
+                temp2 =  Math.floor(Math.random()*20);
+            }
+            while (temp1 % temp2 != 0); 
+            operand1Text =  temp1;
+            operand2Text =  temp2;
+            
+            break;
+        }
+        
+    }
+}
+
+game.state.add('GameState',GameState);
+game.state.start('GameState');
+
+
+</body>
+</html>
